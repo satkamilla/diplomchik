@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="banner__slider">
+    <div class="banner__slide">
+        <img src="{% static 'img/banners/slide1.jpg' %}" alt="">
+        <div class="banner__container">
+
+            <div class="banner__slide-content">
+                <h1>Сервис для маникюра</h1>
+                <h3>Искали где сделать маникюр? Вы попали в нужное для вас место!</h3>
+                <form action="" class="banner__search">
+                    <input type="text" placeholder="Искать">
+                    <button type="submit"><img src="{% static 'img/icons/vector.svg'%}" alt="search"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="banner__slide">
+        <img src="{% static 'img/banners/slide2.jpg' %}" alt="">
+        <div class="banner__container">
+
+            <div class="banner__slide-content">
+                <h1>Сервис для маникюра</h1>
+                <h3>Искали где сделать маникюр? Вы попали в нужное для вас место!</h3>
+                <form action="" class="banner__search">
+                    <input type="text" placeholder="Искать">
+                    <button type="submit"><img src="{% static 'img/icons/vector.svg'%}" alt="search"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="banner__slide">
+        <img src="{% static 'img/banners/slide3.jpg' %}" alt="">
+        <div class="banner__container">
+
+            <div class="banner__slide-content">
+                <h1>Сервис для маникюра</h1>
+                <h3>Искали где сделать маникюр? Вы попали в нужное для вас место!</h3>
+                <form action="" class="banner__search">
+                    <input type="text" placeholder="Искать">
+                    <button type="submit"><img src="{% static 'img/icons/vector.svg'%}" alt="search"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="whosec">
+    <div class="container">
+        <div class="who__wrapper">
+            <div class="who who__client">
+                <h3>Для клиентов</h3>
+                <h2>Время <br>ноготочек</h2>
+                <a href="">Перейти в кабинет</a>
+            </div>
+            <div class="who who__master">
+                <h3>Для мастеров маникюра</h3>
+                <h2>Больше <br>возможностей</h2>
+                <a href="#">Перейти в кабинет</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="getsec">
+    <div class="container">
+        <div class="get__wrapper">
+                <div class="get get__orders">
+                    <h2>Подобрать <br>услугу</h2>
+                    <h3>Найти лучший вариант для себя</h3>
+                    <a href=   "">Услуги</a>
+                </div>
+                <div class="get get__masters">
+                    <h2>Подобрать <br>мастера</h2>
+                    <h3>Посмотрите на лучших мастеров сами!</h3>
+                    <a href="#">Мастера маникюра</a>
+                </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

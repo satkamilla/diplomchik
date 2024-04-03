@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="masters">
+    <div class="container">
+        <div class="masters__top">
+            <h1>Лучшие мастера</h1>
+            <p class="masters__subtitle">
+                Эти мастера точно сделают нужный вам маникюр
+            </p>
+        </div>
+
+        <div class="masters__best">
+            <div class="masters__master">
+                <div class="master__image"><img src="{% static 'img/masters/master1.jpg' %}" alt=""></div>
+                <div class="master__name">Ангела ставрополь</div>
+                <div class="master__category">С блестками</div>
+            </div>
+            <div class="masters__master">
+                <div class="master__image"><img src="{% static 'img/masters/master2.jpg' %}" alt=""></div>
+                <div class="master__name">Ангела ставрополь</div>
+                <div class="master__category">С блестками</div>
+            </div>
+            <div class="masters__master">
+                <div class="master__image"><img src="{% static 'img/masters/master3.jpg' %}" alt=""></div>
+                <div class="master__name">Ангела ставрополь</div>
+                <div class="master__category">С блестками</div>
+            </div>
+            <div class="masters__master">
+                <div class="master__image"><img src="{% static 'img/masters/master4.jpg' %}" alt=""></div>
+                <div class="master__name">Ангела ставрополь</div>
+                <div class="master__category">С блестками</div>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+<section class="search__masters">
+    <div class="container">
+        <div class="search__masters-top">
+            <h2>Поиск мастеров по городу</h2>
+          <!--   <form action="" class="banner__search">
+                <input type="text" placeholder="Искать">
+                <button type="submit"><img src="{% static 'img/icons/vector.svg'%}" alt="search"></button>
+            </form> -->
+        </div>
+        <div class="masters__best">
+            <div class="masters__master">
+                <div class="master__image"><img src="{% static 'img/masters/master1.jpg' %}" alt=""></div>
+                <div class="master__name">Ангела ставрополь</div>
+                <div class="master__category">С блестками</div>
+            </div>
+            <div class="masters__master">
+                <div class="master__image"><img src="{% static 'img/masters/master2.jpg' %}" alt=""></div>
+                <div class="master__name">Ангела ставрополь</div>
+                <div class="master__category">С блестками</div>
+            </div>
+            <div class="masters__master">
+                <div class="master__image"><img src="{% static 'img/masters/master3.jpg' %}" alt=""></div>
+                <div class="master__name">Ангела ставрополь</div>
+                <div class="master__category">С блестками</div>
+            </div>
+            <div class="masters__master">
+                <div class="master__image"><img src="{% static 'img/masters/master4.jpg' %}" alt=""></div>
+                <div class="master__name">Ангела ставрополь</div>
+                <div class="master__category">С блестками</div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+{% endblock %}

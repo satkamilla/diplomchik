@@ -1,0 +1,296 @@
+html{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #252b42;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-weight: 700;
+
+}
+
+.container{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.nav__navigation {
+    display: flex;
+
+}
+
+.nav__navigation li{
+    margin-right: 30px;
+}
+
+.nav__navigation li a{
+    font-size: 14px;
+    color: #737373;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav__logo{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nav__login{
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
+.banner__slide{
+    position: relative;
+    height: 590px;
+    max-width: 100%;
+    width: 100vw;
+
+    
+
+}
+.banner__slide img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.banner__container{
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+    max-width: 710px;
+}
+
+.banner__slide-content h1{
+    font-size: 58px;
+    margin-bottom: 24px;
+}
+
+.banner__slide-content h3{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.banner__search{
+    margin: 0 auto;
+    position: relative;
+    width: 510px;
+    height: 50px;
+    border: 1px solid #E6E6E6;
+    border-radius: 15px;
+}
+.banner__search input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    height: 48px;
+    border: none;
+    width: 450px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 15px;
+    outline: none;
+    padding-right: 20px;
+}
+
+.banner__search button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #23A6F0;
+    border: none;
+    text-align: center;
+
+    height: 50px;
+    width: 60px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.banner__search button img{
+    width: 18px;
+    margin-top: 30%;
+    transform: translateY(-50%);
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.who__wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.get__wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.whosec{
+    margin-bottom: 80px;
+}
+
+.who{
+    width: 510px;
+    max-height: 300px;
+    padding-left: 50px;
+    padding-top: 65px;
+    padding-bottom: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.get{
+    width: 50%;
+    height: 434px;
+    padding-top: 56px;
+    padding-left: 66px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+}
+.get h2{
+    margin-bottom: 50px;
+    font-size: 58px;
+    line-height: 75px;
+}
+.get h3{
+    margin-bottom: 150px;
+    font-size: 20px;
+}
+
+.get a{
+    padding: 25px 60px;
+    text-decoration: none;
+
+}
+.who h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.get__orders{
+    color: #fff;
+}
+
+.get__orders a{
+    color: #fff;
+    border: 1px solid #Fff;
+}
+
+.get__masters{
+    color: #252b42;
+}
+
+.get__masters a{
+    color: #252b42;
+    border: 1px solid #252b42;
+}
+
+
+.who__client h3{
+    color: #fff;
+}
+.who__master h3{
+    color: #E77C40;
+}
+.who h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.who a{
+    text-decoration: underline;
+    color: #252b42;
+    font-size: 14px;
+}
+
+.who__client{
+    background-image: url(../img/who/1.jpg);
+}
+
+.get__orders{
+    background-image: url(../img/get/1.jpg);
+
+}
+
+.who__master{
+    background-image: url(../img/who/2.jpg);
+
+}
+.get__masters{
+    background-image: url(../img/get/2.jpg);
+}
+
+
+.masters{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.masters__top{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.masters__top h1{
+    font-size: 58px;
+    margin-bottom: 24px;
+}
+.masters__subtitle{
+    font-size: 20px;
+}
+
+.masters__best{
+    display: flex;
+    justify-content: space-between;
+}
+
+.masters__master{
+    width: 240px;
+}
+
+.master__image{
+    margin-bottom: 10px;
+}
+
+.master__name{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.master__category{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.search__masters-top h2{
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}

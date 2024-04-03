@@ -1,0 +1,61 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/reset.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'slick/css/slick.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'slick/css/slick-theme.css' %}" />
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Ноготочки</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav__logo">
+                    ноготочки ру
+                </div>
+                <ul class="nav__navigation">
+                    <li><a href="{% url 'index' %}">Главная</a></li>
+                    <li><a href="#">О сайте</a></li>
+                    <li><a href="{% url 'masters' %}">Мастера Маникюра</a></li>
+                    <li><a href="#">Блоги</a></li>
+                    <li><a href="#">Подобрать услугу</a></li>
+                </ul>
+                <a href="" class="nav__login">Логин/Регистрация</a>
+            </nav>
+        </div>
+
+
+    </header>
+    {% block content %}
+    {% endblock %}
+
+    <footer>
+
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="{% static 'slick/js/slick.js' %}"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $('.banner__slider').slick();
+        });
+    </script>
+
+</body>
+
+</html>
