@@ -83,9 +83,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'manicure',
         'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost',
-        'PORT': '5432',  # Порт, на котором работает PostgreSQL
+        'PASSWORD': '08112002',
+        'HOST': '127.0.0.1',
+        'PORT': '5433',  # Порт, на котором работает PostgreSQL
     }
 }
 
